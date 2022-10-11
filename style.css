@@ -27,7 +27,7 @@ font-family: 'Montserrat', sans-serif;
  }
 
  .grid{
-    max-width: 700px;
+    max-width: 511px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fff;
@@ -41,7 +41,7 @@ font-family: 'Montserrat', sans-serif;
  }
  
  .card-content{
-    padding: 35px;
+    padding: 22px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,9 +56,14 @@ font-family: 'Montserrat', sans-serif;
  }
  h2.pro-name{
     font-family: "Fraunces", serif;
-    font-size: 34px;
+    font-size: 28px;
     color: hsl(212, 21%, 14%);
     line-height: 1em;
+ }
+ p.pro-des{
+   font-family: "Inter", sans-serif;
+   color: hsl(228, 12%, 48%);
+   line-height: 21px;
  }
  .price{
     display: flex;
@@ -75,10 +80,11 @@ font-family: 'Montserrat', sans-serif;
  p.old-price{
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
-    font-size: 14px;
+    font-size: 11px;
  }
 
  button.cta{
+    font-family: "Inter", sans-serif;
     background-color: hsl(158, 36%, 37%);
     border-radius: 5px;
     border: none;
